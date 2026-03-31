@@ -4,5 +4,5 @@ Un conjunto de instrucciones para tareas informáticas simples relacionadas con 
 
 Instrucciones:
 
-* [QR Menu con Google Docs](qr-menu-google)
+* [QR Menu con Google Docs](qr-menu-google.md)
 
