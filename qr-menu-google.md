@@ -2,12 +2,21 @@
 
 Las siguientes instrucciones suponen que estás trabajando en un portátil.
 
-1. Crea una cuenta de Google si aún no la tienes.
-2. Abre un navegador e inicia sesión en tu cuenta de Google.
-3. Abrir la aplicación Google Docs
-4. Crea el texto que quieras en tu menú.
-5. Desde el menú Archivo, selecciona Compartir > Publicar en la web
-6. Asegúrate de que "Enlace" y "Volver a publicar automáticamente cuando se realizan cambios" estén seleccionados.
-7. Copia el enlace que se muestra.
-8. Abre el navegador Google Chrome y pega el enlace copiado.
-9. Haga clic derecho en la página y seleccione: "Crear código QR para esta página".
+1. **Inicia sesión en tu cuenta de Google** y abre la aplicación **Google Docs**.
+2. **Crea el texto y diseño** que quieras para tu menú.
+3. **Configura la privacidad**:
+   * Haz clic en el botón azul **"Compartir"** (arriba a la derecha).
+   * En "Acceso general", cambia "Restringido" a **"Cualquier persona con el enlace"**.
+   * Asegúrate de que el rol esté configurado como **"Lector"**.
+   * Haz clic en **"Copiar enlace"** y luego en "Listo".
+4. **Modifica el enlace para una vista limpia**:
+   * Pega el enlace copiado en la barra de direcciones de tu navegador.
+   * Borra todo lo que aparece al final del enlace a partir de `/edit...` y sustitúyelo por: **`/preview?rm=minimal`**
+   * *(Ejemplo: de `.../d/123/edit?usp=sharing` a `.../d/123/preview?rm=minimal`)*.
+5. **Genera el código QR**:
+   * Pulsa "Enter" para cargar esa nueva dirección. Verás el menú a pantalla completa, sin barras de herramientas.
+   * Haz clic derecho en cualquier parte de la página y selecciona: **"Crear código QR para esta página"**.
+6. **Descarga e imprime**:
+   * Descarga la imagen del código QR para usarla en tus diseños.
+   * **Nota importante**: Puedes actualizar los platos o precios en tu Google Doc original en cualquier momento; los cambios se verán reflejados automáticamente sin tener que cambiar el código QR.
+
